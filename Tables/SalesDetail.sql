@@ -1,0 +1,28 @@
+﻿CREATE TABLE [Retail].[SalesDetail] (
+    [InvoiceNo]      UNIQUEIDENTIFIER NOT NULL,
+    [Description]    NVARCHAR (100)   NULL,
+    [Qty]            INT              NULL,
+    [Price]          NUMERIC (18, 2)  NULL,
+    [TotalValue]     NUMERIC (18, 2)  NULL,
+    [Discount]       NUMERIC (18, 2)  NULL,
+    [NetDiscount]    NUMERIC (18, 2)  NULL,
+    [NetAmount]      NUMERIC (18, 2)  NULL,
+    [ActualSales]    NUMERIC (18, 2)  NULL,
+    [Gst]            NUMERIC (18, 4)  NULL,
+    [SalesManId]     NVARCHAR (50)    NULL,
+    [ProductId]      INT              NOT NULL,
+    [TopCategoryId]  INT              NULL,
+    [CategoryId]     INT              NULL,
+    [BrandId]        NVARCHAR (50)    NULL,
+    [AverageCost]    NUMERIC (18, 2)  NULL,
+    [MemberDiscount] NUMERIC (18)     NULL,
+    [IsRegularBuy]   BIT              NULL,
+    [Profile]        NVARCHAR (50)    NULL,
+    [AgeGroupType]   NVARCHAR (50)    NULL,
+    [Gender]         NVARCHAR (10)    NULL,
+    [TimeSliceId]    INT              NULL,
+    [TimeSlice]      NVARCHAR (50)    NULL,
+    [CreateDate]     DATETIME         NOT NULL,
+    [ModifyDate]     DATETIME         NULL
+);
+
