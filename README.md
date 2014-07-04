@@ -1,7 +1,7 @@
 DataSpring
 ====================
 
-Avantprise’s **DataSpring** is open source tool to generate realistic data for learning, modeling and testing in Machine Learning (ML). As numerous sources are available to get datasets in diverse domains, a realistic, dynamic and on demand data generator based on profile and controllable characteristics is a distant dream and DataSpring ventures to provide realistic test data at scale by developing a framework workable on a database (SQL Server for now) to cover every possible domains for which data could be generated realistically. 
+Avantprise’s **DataSpring** is open source tool to generate realistic data for learning, modeling and testing in Machine Learning (ML). As numerous sources are available to get datasets in diverse domains, a realistic, dynamic and on demand data generator based on profile and controllable characteristics is a distant dream and DataSpring ventures to provide realistic test data at scale by developing a framework workable on a database (SQL Server for now) to cover every possible domains. 
 
 Retail is the first domain and looking forward to contributors to discuss how to further abstract this or build a robust framework and make it available at large.
 
