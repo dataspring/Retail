@@ -17,12 +17,18 @@ An **on demand** retail test data tool is available @ http://dataspring.avantpri
 
 ####Environment: 
 Windows 7 and above with SQL Server Express 2012 and above 
-####Steps:
+####Steps to Generate Data:
  1. Download [BigTestData.rar](https://www.dropbox.com/s/jil120c26r9wz95/BigTestData.rar) and unzip to extract BigTestData.bak file. 
  2. Launch SQL Server Management Studio and connect to your flavor of SQL Server
  3. Restore this file to SQL Server as BigTestData database 
  4. Right click on this database and initiate a new query session
-Run the following command to test drive the data generation process: 
+ 5. Run the following [SQL] (https://github.com/dataspring/Retail/blob/master/Getting%20Started/TestReatilDataGeneration.sql) commands to test drive the data generation process
+
+ ####Steps to work with Source:
+ 1. Clone the project
+ 2. Open the solution file in VS
+ 3. Start exploring SQL source code refering to [wiki] (https://github.com/dataspring/Retail/wiki) which explains the flow
+
 
 ###Retail Test Data on Demand
 This test data is available on demand and you can visit http://dataspring.avantprise.com to send a profiled customer’s purchase pattern/history for few years by email to your inbox.

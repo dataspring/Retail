@@ -28,4 +28,5 @@ Select count(*) from [Retail].[SalesDetail]
 
 ---For Big Data Requirements: You need to iterate step 2 enclosing in a loop for all customers that you need.
 ---In the quickstart folder, you have a database backup that has 100K customers that yo can generate data, simply loop them all
---- and leave it run for the few hours - voila - you have the records
+---- and leave it run for the few hours - voila - you have the records
+---- but you have to be mindful of the time taken and the number of query sessions to run them parallel.
