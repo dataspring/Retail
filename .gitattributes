@@ -2,7 +2,7 @@
 # Set default behavior to automatically normalize line endings.
 ###############################################################################
 * text=auto
-*.sql linguist-language=sql
+linguist-language=sql
 
 
 
