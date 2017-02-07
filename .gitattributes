@@ -2,7 +2,9 @@
 # Set default behavior to automatically normalize line endings.
 ###############################################################################
 * text=auto
-*.sql linguist-language=SQL
+*.sql linguist-language=sql
+Retail/Getting Started/* linguist-vendored
+
 
 ###############################################################################
 # Set default behavior for command prompt diff.
